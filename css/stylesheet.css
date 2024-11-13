@@ -1,0 +1,1782 @@
+.grid {
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px 250px 250px;
+    grid-template-rows: 370px 370px 370px 370px 370px 370px;
+}
+
+body {
+    font-family: "Gaegu", "serif";
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    position: relative;
+    top: 1855px;
+    line-height: 40px;
+}
+
+.link_to_top a {
+    text-decoration: none;
+    font-size: 20px;
+    top: 95px;
+    position: relative;
+    color: white;
+}
+
+p {
+    font-size: 13pt;
+    line-height: 24px;
+    letter-spacing: 2px;
+    width: 170%;
+    transition-duration: .5s;
+}
+
+p:hover {
+    background-color: white;
+}
+
+h1 {
+    font-size: 37pt;
+    font-weight: 700;
+    position: relative;
+    line-height: 32px;
+    top: 20px;
+}
+
+h2 {
+    font-size: 27pt;
+    position: relative;
+    font-weight: 300;
+    top: -25px;
+}
+
+h3 {
+    color: white;
+    font-size: 18pt;
+    position: relative;
+    width: 140%;
+    transition-duration: .4s;
+    font-weight:700;
+}
+
+h3:hover {
+    opacity: 50%;
+}
+
+h4 {
+    position: relative;
+    top: 80px;
+}
+
+h5 {
+    position: relative;
+    font-weight: 500;
+    line-height: 0px;
+    transition-duration: .5s;
+}
+
+h5:hover {
+    opacity: 50%;
+}
+
+h6 {
+    font-size: 13pt;
+    font-weight: 300;
+    color: white;
+    position: relative;
+    letter-spacing: 1px;
+    transition-duration: .4s;
+    z-index: 1;
+}
+
+#home {
+    background-image: url(../img/Millman_Homepage.jpg);
+    background-size: cover;
+}
+
+.Home-Debbie {
+    color: #F05559;
+}
+
+.HomeBox {
+    background-color: white;
+    text-align: center;
+    width: 75%;
+    left: 500px;
+    top: 163px;
+    position: relative;
+    transition-duration: .6s;
+    z-index: 2;
+}
+
+.HomeBox:hover {
+    width: 125%;
+}
+
+#about {
+    background-image: url(../img/Millman_About.jpg);
+    background-size: cover;
+}
+
+.About-Debbie {
+    color: #F6892A;
+}
+
+#gallery {
+    background-image: url(../img/Millman_Gallery.jpg);
+    background-size: cover;
+}
+
+.Gallery-Debbie {
+    color: #ECC600;
+}
+
+#influences {
+    background-image: url(../img/Millman_Style.jpg);
+    background-size: cover;
+}
+
+.Style-Debbie {
+    color: #51A04B;
+}
+
+#career {
+    background-image: url(../img/Millman_Career.jpg);
+    background-size: cover;
+}
+
+.Career-Debbie {
+    color: #10B5BC;
+}
+
+.DebbieHead {
+    width: 125%;
+    position: relative;
+    padding-left: 130px;
+    top: -150px;
+    transition-duration: .6s;
+    z-index: 2;
+}
+
+.DebbieHead:hover {
+    filter: brightness(120%);
+    cursor: pointer;
+}
+
+.Home-Bar {
+    position: relative;
+    left: 0px;
+    width: 150%;
+    background-color: #F05559;
+    padding-right: 420px;
+    top: 500px;
+}
+
+.Home-Nav-Rectangle {
+    width: 1240px;
+    height: 30px;
+    position: relative;
+    background-color: #10B5BC;
+    top: 580px;
+    left: -300px;
+    z-index: -1;
+    transition-duration: .4s;
+}
+
+.Home-HeadshotBoxTop {
+    background-color: #F05559;
+    position: relative;
+    width: 260px;
+    height: 190px;
+    z-index: -1;
+    top: -600px;
+    left: 400px;
+    transition-duration: .6s;
+    z-index: 1;
+}
+
+.Home-HeadshotBoxTop:hover {
+    opacity: 60%;
+    transform: scale(118%);
+}
+
+.Home-HeadshotBoxBottom {
+    background-color: #10B5BC;
+    position: relative;
+    z-index: -1;
+    width: 190px;
+    height: 175px;
+    bottom: 490px;
+    left: 280px;
+    z-index: 1;
+    transition-duration: .5s;
+}
+
+.Home-HeadshotBoxBottom:hover {
+    opacity: 80%;
+    transform: scale(110%);
+}
+
+.LegsOnDesk {
+    position: relative;
+    width: 150%;
+    top: 265px;
+    right: 375px;
+    transition-duration: .5s;
+}
+
+.LegsOnDesk:hover {
+    filter: brightness(130%);
+    cursor: pointer;
+    transform: scale(104%);
+}
+
+.Home-Green-Rectangle {
+    position: relative;
+    background-color: #51A04B;
+    z-index: -1;
+    width: 450px;
+    height: 200px;
+    right: 550px;
+    top: 115px;
+}
+
+.Millman_Introduction {
+    position: relative;
+    top: 665px;
+    left: 250px;
+    transition-duration: .6s;
+    z-index: 3;
+}
+
+.Millman_Introduction:hover {
+    transform: scale(112%);
+}
+
+.Introduction {
+    position: relative;
+    top: 20px;
+}
+
+.Introduction-Text-Rectangle1 {
+    position: relative;
+    background-color: #F05559;
+    width: 445px;
+    height: 27px;
+    z-index: -1;
+    bottom: 265px;
+    right: 15px;
+}
+
+.Introduction-Text-Rectangle2 {
+    position: relative;
+    background-color: #F05559;
+    width: 445px;
+    height: 27px;
+    z-index: -1;
+    bottom: 239px;
+    right: 15px;
+}
+
+.Introduction-Text-Rectangle3 {
+    position: relative;
+    background-color: #F05559;
+    width: 445px;
+    height: 27px;
+    z-index: -1;
+    bottom: 217px;
+    right: 15px;
+}
+
+.Introduction-Text-Rectangle4 {
+    position: relative;
+    background-color: #F05559;
+    width: 445px;
+    height: 27px;
+    z-index: -1;
+    bottom: 195px;
+    right: 15px;
+}
+
+.Introduction-Text-Rectangle5 {
+    position: relative;
+    background-color: #F05559;
+    width: 445px;
+    height: 27px;
+    z-index: -1;
+    bottom: 175px;
+    right: 15px;
+}
+
+.TedTalkStage {
+    position: relative;
+    width: 150%;
+    top: 250px;
+    left: 375px;
+    transition-duration: .5s;
+}
+
+.TedTalkStage:hover {
+    filter: brightness(135%);
+    cursor: pointer;
+    transform: scale(104%);
+}
+
+.Home-Pink-Rectangle {
+    position: relative;
+    background-color: #F05559;
+    z-index: -1;
+    width: 320px;
+    height: 150px;
+    left: 260px;
+    top: -100px;
+}
+
+.Home-Orange-Rectangle {
+    position: relative;
+    background-color: #F6892A;
+    z-index: -1;
+    left: 30px;
+    top: 10px;
+    width: 420px;
+    height: 30px;
+}
+
+.Home-TedTalkCapition {
+    position: relative;
+    background-color: #F05559;
+    width: 190px;
+    height: 28px;
+    top: 230px;
+    left: 500px;
+    padding-left: 5px;
+    transition-duration: .6s;
+}
+
+.Home-TedTalkCapition:hover {
+    transform: scale(115%);
+}
+
+.DesignMattersLogo {
+    position: relative;
+    width: 150%;
+    top: 85px;
+    right: 375px;
+    transition-duration: .5s;
+}
+
+.DesignMattersLogo:hover {
+    filter: brightness(130%);
+    cursor: pointer;
+    transform: scale(104%);
+}
+
+.Home-Yellow-Rectangle {
+    width: 250px;
+    height: 150px;
+    background-color: #ECC600;
+    top: -115px;
+    position: relative;
+    z-index: -1;
+    right: 130px;
+}
+
+.Home-DesignMattersLogoCapition {
+    top: 88px;
+    right: 250px;
+    position: relative;
+    background-color: #F05559;
+    width: 110px;
+    height: 27px;
+    padding-left: 5px;
+    transition-duration: .6s;
+}
+
+.Home-DesignMattersLogoCapition:hover {
+    transform: scale(115%);
+}
+
+.Home-Footer-Rectangle {
+    background-color: #F05559;
+    position: relative;
+    width: 1190px;
+    height: 90px;
+    z-index: -1;
+    left: -500px;
+    top: 180px;
+}
+
+.About-Bar {
+    position: relative;
+    left: 0px;
+    width: 150%;
+    background-color: #F6892A;
+    padding-right: 420px;
+    top: 500px;
+}
+
+.About-Nav-Rectangle {
+    width: 1240px;
+    height: 30px;
+    position: relative;
+    background-color: #ECC600;
+    top: 580px;
+    left: -300px;
+    z-index: -1;
+}
+
+.About-HeadshotBoxTop {
+    background-color: #F6892A;
+    position: relative;
+    width: 260px;
+    height: 190px;
+    z-index: -1;
+    top: -600px;
+    left: 400px;
+    transition-duration: .6s;
+    z-index: 1;
+}
+
+.About-HeadshotBoxTop:hover {
+    opacity: 60%;
+    transform: scale(118%);
+}
+
+.About-HeadshotBoxBottom {
+    background-color: #ECC600;
+    position: relative;
+    z-index: -1;
+    width: 190px;
+    height: 175px;
+    bottom: 490px;
+    left: 280px;
+    transition-duration: .5s;
+    z-index: 1;
+}
+
+.About-HeadshotBoxBottom:hover {
+    opacity: 80%;
+    transform: scale(110%);
+}
+
+.YoungDebbie {
+    position: relative;
+    width: 105%;
+    top: 10px;
+    right: 263px;
+    transition-duration: .6s;
+}
+
+.YoungDebbie:hover {
+    filter: brightness(120%);
+    cursor: pointer;
+    transform: scale(104%);
+}
+
+.About-Green-Rectangle {
+    background-color: #51A04B;
+    position: relative;
+    width: 400px;
+    height: 150px;
+    z-index: -1;
+    top: 310px;
+    right: 500px;
+}
+
+.About-Pink-Rectangle {
+    background-color: #F05559;
+    position: relative;
+    width: 210px;
+    height: 180px;
+    z-index: -1;
+    top: 285px;
+    right: 180px;
+}
+
+.About-YoungDebbieCapiton {
+    background-color: #F6892A;
+    position: relative;
+    width: 155px;
+    height: 30px;
+    padding-left: 5px;
+    top: 0px;
+    right: 250px;
+    transition-duration: .6s;
+}
+
+.About-YoungDebbieCapiton:hover {
+    transform: scale(115%);
+}
+
+.Millman_Background {
+    position: relative;
+    top: 665px;
+    left: 250px;
+    z-index: 3;
+    transition-duration: .6s;
+}
+
+.Millman_Background:hover {
+    transform: scale(112%);
+}
+
+.Background {
+    position: relative;
+    top: 20px;
+}
+
+.Background-Text-Rectangle1 {
+    position: relative;
+    width: 445px;
+    height: 27px;
+    z-index: -1;
+    bottom: 217px;
+    right: 15px;
+    background-color: #F6892A;
+}
+
+.Background-Text-Rectangle2 {
+    position: relative;
+    width: 445px;
+    height: 27px;
+    z-index: -1;
+    bottom: 190px;
+    right: 15px;
+    background-color: #F6892A;
+}
+
+.Background-Text-Rectangle3 {
+    position: relative;
+    width: 445px;
+    height: 27px;
+    z-index: -1;
+    bottom: 170px;
+    right: 15px;
+    background-color: #F6892A;
+}
+
+.Background-Text-Rectangle4 {
+    position: relative;
+    width: 445px;
+    height: 27px;
+    z-index: -1;
+    bottom: 147px;
+    right: 15px;
+    background-color: #F6892A;
+}
+
+.DebbiePose {
+    position: relative;
+    width: 140%;
+    top: -45px;
+    right: 350px;
+    transition-duration: .5s;
+}
+
+.DebbiePose:hover {
+    filter: brightness(120%);
+    cursor: pointer;
+    transform: scale(104%);
+}
+
+.About-Blue-Rectangle {
+    position: relative;
+    background-color: #10B5BC;
+    width: 400px;
+    height: 160px;
+    z-index: -1;
+    top: 290px;
+    right: 300px;
+}
+
+.Millman_Realization {
+    position: relative;
+    top: 365px;
+    left: 250px;
+    z-index: 3;
+    transition-duration: .6s;
+}
+
+.Millman_Realization:hover {
+    transform: scale(112%);
+}
+
+.Realization {
+    position: relative;
+    top: 20px;
+}
+
+.Realization-Text-Rectangle1 {
+    background-color: #F6892A;
+    position: relative;
+    z-index: -1;
+    width: 445px;
+    height: 27px;
+    top: -170px;
+    right: 15px;
+}
+
+.Realization-Text-Rectangle2 {
+    background-color: #F6892A;
+    position: relative;
+    z-index: -1;
+    width: 445px;
+    height: 27px;
+    top: -142px;
+    right: 15px;
+}
+
+.Realization-Text-Rectangle3 {
+    background-color: #F6892A;
+    position: relative;
+    z-index: -1;
+    width: 445px;
+    height: 27px;
+    top: -120px;
+    right: 15px;
+}
+
+.About-Footer-Rectangle {
+    background-color: #F6892A;
+    position: relative;
+    width: 1190px;
+    height: 90px;
+    z-index: -1;
+    left: -500px;
+    top: 180px;
+}
+
+.Gallery-Bar {
+    position: relative;
+    left: 0px;
+    width: 150%;
+    background-color: #ECC600;
+    padding-right: 420px;
+    top: 500px;
+}
+
+.Gallery-Nav-Rectangle {
+    width: 1240px;
+    height: 30px;
+    position: relative;
+    background-color: #51A04B;
+    top: 580px;
+    left: -300px;
+    z-index: -1;
+}
+
+.Gallery-HeadshotBoxTop {
+    background-color: #ECC600;
+    position: relative;
+    width: 260px;
+    height: 190px;
+    z-index: -1;
+    top: -600px;
+    left: 400px;
+    transition-duration: .6s;
+    z-index: 1;
+}
+
+.Gallery-HeadshotBoxTop:hover {
+    opacity: 60%;
+    transform: scale(118%);
+}
+
+.Gallery-HeadshotBoxBottom {
+    background-color: #51A04B;
+    position: relative;
+    z-index: -1;
+    width: 190px;
+    height: 175px;
+    top: -490px;
+    left: 280px;
+    z-index: 1;
+    transition-duration: .5s;
+}
+
+.Gallery-HeadshotBoxBottom:hover {
+    opacity: 80%;
+    transform: scale(110%);
+}
+
+.BK-Logo {
+    position: relative;
+    width: 110%;
+    top: 10px;
+    right: 274px;
+    transition-duration: .6s;
+}
+
+.BK-Logo:hover {
+    filter: brightness(120%);
+    cursor: pointer;
+    transform: scale(104%);
+}
+
+.Gallery-Orange-Rectangle {
+    background-color: #F6892A;
+    position: relative;
+    z-index: -1;
+    width: 360px;
+    height: 280px;
+    top: 245px;
+    right: 500px;
+}
+
+.BK_Gallery {
+    position: relative;
+    top: 665px;
+    left: 250px;
+    z-index: 3;
+    transition-duration: .6s;
+}
+
+.BK_Gallery:hover {
+    transform: scale(112%);
+}
+
+.Burger-King {
+    position: relative;
+    top: 20px;
+}
+
+.BK-Text-Rectangle1 {
+    position: relative;
+    width: 445px;
+    height: 27px;
+    z-index: -1;
+    bottom: 242px;
+    right: 15px;
+    background-color: #ECC600;
+}
+
+.BK-Text-Rectangle2 {
+    position: relative;
+    width: 445px;
+    height: 27px;
+    z-index: -1;
+    bottom: 215px;
+    right: 15px;
+    background-color: #ECC600;
+}
+
+
+.BK-Text-Rectangle3 {
+    position: relative;
+    width: 445px;
+    height: 27px;
+    z-index: -1;
+    bottom: 193px;
+    right: 15px;
+    background-color: #ECC600;
+}
+
+.BK-Text-Rectangle4 {
+    position: relative;
+    width: 445px;
+    height: 27px;
+    z-index: -1;
+    bottom: 171px;
+    right: 15px;
+    background-color: #ECC600;
+}
+
+.BK-Text-Rectangle5 {
+    position: relative;
+    width: 445px;
+    height: 27px;
+    z-index: -1;
+    bottom: 150px;
+    right: 15px;
+    background-color: #ECC600;
+}
+
+.HotNY {
+    position: relative;
+    width: 120%;
+    top: -700px;
+    right: 295px;
+    transition-duration: .6s;
+}
+
+.HotNY:hover {
+    filter: brightness(130%);
+    cursor: pointer;
+    transform: scale(104%);
+}
+
+.Gallery-Yellow-Rectangle {
+    background-color: #ECC600;
+    position: relative;
+    width: 390px;
+    height: 100px;
+    z-index: -1;
+    top: -205px;
+    right: 500px;
+}
+
+.Gallery-Blue-Rectangle {
+    background-color: #10B5BC;
+    position: relative;
+    width: 300px;
+    height: 290px;
+    z-index: -2;
+    top: -455px;
+    right: 270px;
+}
+
+.Hot97_Gallery {
+    position: relative;
+    top: 48px;
+    left: 250px;
+    z-index: 3;
+    transition-duration: .6s;
+}
+
+.Hot97_Gallery:hover {
+    transform: scale(112%);
+}
+
+.Hot97 {
+    position: relative;
+    top: 20px;
+}
+
+.Hot97-Text-Rectangle1 {
+    position: relative;
+    width: 445px;
+    height: 27px;
+    z-index: -1;
+    bottom: 265px;
+    right: 15px;
+    background-color: #ECC600;
+}
+
+.Hot97-Text-Rectangle2 {
+    position: relative;
+    width: 445px;
+    height: 27px;
+    z-index: -1;
+    bottom: 237px;
+    right: 15px;
+    background-color: #ECC600;
+}
+
+.Hot97-Text-Rectangle3 {
+    position: relative;
+    width: 445px;
+    height: 27px;
+    z-index: -1;
+    bottom: 217px;
+    right: 15px;
+    background-color: #ECC600;
+}
+
+.Hot97-Text-Rectangle4 {
+    position: relative;
+    width: 445px;
+    height: 27px;
+    z-index: -1;
+    bottom: 195px;
+    right: 15px;
+    background-color: #ECC600;
+}
+
+.Hot97-Text-Rectangle5 {
+    position: relative;
+    width: 445px;
+    height: 27px;
+    z-index: -1;
+    bottom: 175px;
+    right: 15px;
+    background-color: #ECC600;
+}
+
+.Self-Portrait-Book {
+    position: absolute;
+    top: 1500px;
+    right: 940px;
+    transition-duration: .6s;
+}
+
+.Self-Portrait-Book:hover {
+    filter: brightness(130%);
+    cursor: pointer;
+    transform: scale(104%);
+}
+
+.Gallery-Pink-Rectangle {
+    position: relative;
+    background-color: #F05559;
+    width: 280px;
+    height: 400px;
+    top: -1015px;
+    right: 260px;
+    z-index: -1;
+}
+
+.SelfPortrait_Gallery {
+    position: relative;
+    top: -687px;
+    left: 250px;
+    z-index: 3;
+    transition-duration: .6s;
+}
+
+.SelfPortrait_Gallery:hover {
+    transform: scale(112%);
+}
+
+.SelfPortrait {
+    position: relative;
+    top: 20px;
+}
+
+.SelfPortrait-Text-Rectangle1 {
+    position: relative;
+    width: 445px;
+    height: 27px;
+    z-index: -1;
+    bottom: 219px;
+    right: 15px;
+    background-color: #ECC600;
+}
+
+.SelfPortrait-Text-Rectangle2 {
+    position: relative;
+    width: 445px;
+    height: 27px;
+    z-index: -1;
+    bottom: 190px;
+    right: 15px;
+    background-color: #ECC600;
+}
+
+.SelfPortrait-Text-Rectangle3 {
+    position: relative;
+    width: 445px;
+    height: 27px;
+    z-index: -1;
+    bottom: 170px;
+    right: 15px;
+    background-color: #ECC600;
+}
+
+.SelfPortrait-Text-Rectangle4 {
+    position: relative;
+    width: 445px;
+    height: 27px;
+    z-index: -1;
+    bottom: 150px;
+    right: 15px;
+    background-color: #ECC600;
+}
+
+.Gallery-SelfPortraitCapiton {
+    background-color: #ECC600;
+    position: relative;
+    width: 205px;
+    height: 30px;
+    padding-left: 5px;
+    top: -1012px;
+    right: 250px;
+    transition-duration: .6s;
+}
+
+.Gallery-SelfPortraitCapiton:hover {
+    transform: scale(115%);
+}
+
+.Gallery-Footer-Rectangle {
+    background-color: #ECC600;
+    position: relative;
+    width: 1190px;
+    height: 90px;
+    z-index: -1;
+    left: -500px;
+    top: 180px;
+}
+
+
+.Style-Bar {
+    position: relative;
+    left: 0px;
+    width: 150%;
+    background-color: #51A04B;
+    padding-right: 420px;
+    top: 500px;
+}
+
+.Style-Nav-Rectangle {
+    width: 1240px;
+    height: 30px;
+    position: relative;
+    background-color: #10B5BC;
+    top: 580px;
+    left: -300px;
+    z-index: -1;
+}
+
+.Style-HeadshotBoxTop {
+    background-color: #51A04B;
+    position: relative;
+    width: 260px;
+    height: 190px;
+    z-index: -1;
+    top: -600px;
+    left: 400px;
+    z-index: 1;
+    transition-duration: .6s;
+}
+
+.Style-HeadshotBoxTop:hover {
+    opacity: 60%;
+    transform: scale(118%);
+}
+
+.Style-HeadshotBoxBottom {
+    background-color: #10B5BC;
+    position: relative;
+    z-index: -1;
+    width: 190px;
+    height: 175px;
+    bottom: 490px;
+    left: 280px;
+    z-index: 1;
+    transition-duration: .5s;
+}
+
+.Style-HeadshotBoxBottom:hover {
+    opacity: 80%;
+    transform: scale(110%);
+}
+
+.ObamaCall {
+    width: 100%;
+    position: relative;
+    top: -10px;
+    right: 250px;
+    transition-duration: .6s;
+}
+
+.ObamaCall:hover {
+    filter: brightness(120%);
+    cursor: pointer;
+    transform: scale(104%);
+}
+
+.Influences-Yellow-Rectangle {
+    background-color: #ECC600;
+    position: relative;
+    width: 260px;
+    height: 320px;
+    z-index: -1;
+    top: 280px;
+    right: 235px;
+}
+
+.Millman_Influences {
+    position: relative;
+    top: 665px;
+    left: 250px;
+    z-index: 3;
+    transition-duration: .6s;
+}
+
+.Millman_Influences:hover {
+    transform: scale(112%);
+}
+
+.Influences {
+    position: relative;
+    top: 20px;
+}
+
+.Influences-Text-Rectangle1 {
+    background-color: #51A04B;
+    position: relative;
+    width: 445px;
+    height: 27px;
+    z-index: -1;
+    bottom: 195px;
+    right: 15px;
+}
+
+.Influences-Text-Rectangle2 {
+    background-color: #51A04B;
+    position: relative;
+    width: 445px;
+    height: 27px;
+    z-index: -1;
+    bottom: 165px;
+    right: 15px;
+}
+
+.Influences-Text-Rectangle3 {
+    background-color: #51A04B;
+    position: relative;
+    width: 445px;
+    height: 27px;
+    z-index: -1;
+    bottom: 145px;
+    right: 15px;
+}
+
+.Influences-Text-Rectangle4 {
+    background-color: #51A04B;
+    position: relative;
+    width: 445px;
+    height: 27px;
+    z-index: -1;
+    bottom: 123px;
+    right: 15px;
+}
+
+.Style-ObamaCallCapiton {
+    background-color: #51A04B;
+    position: relative;
+    width: 245px;
+    height: 30px;
+    padding-left: 5px;
+    top: -40px;
+    right: 250px;
+    transition-duration: .6s;
+}
+
+.Style-ObamaCallCapiton:hover {
+    transform: scale(115%);
+}
+
+.LOVE-Statue {
+    width: 120%;
+    position: relative;
+    top: -525px;
+    right: 300px;
+    transition-duration: .6s;
+}
+
+.LOVE-Statue:hover {
+    filter: brightness(130%);
+    cursor: pointer;
+    transform: scale(104%);
+}
+
+.Inspiration-Green-Rectange {
+    position: relative;
+    background-color: #51A04B;
+    width: 400px;
+    height: 200px;
+    z-index: -1;
+    top: -345px;
+    right: 500px;
+}
+
+.Millman_Inspiration {
+    position: relative;
+    top: -42px;
+    left: 250px;
+    z-index: 3;
+    transition-duration: .6s;
+}
+
+.Millman_Inspiration:hover {
+    transform: scale(112%);
+}
+
+.Inspiration {
+    position: relative;
+    top: 20px;
+}
+
+.Inspiration-Text-Rectangle1 {
+    background-color: #51A04B;
+    position: relative;
+    width: 445px;
+    height: 27px;
+    z-index: -1;
+    bottom: 195px;
+    right: 15px;
+}
+
+.Inspiration-Text-Rectangle2 {
+    background-color: #51A04B;
+    position: relative;
+    width: 445px;
+    height: 27px;
+    z-index: -1;
+    bottom: 165px;
+    right: 15px;
+}
+
+.Inspiration-Text-Rectangle3 {
+    background-color: #51A04B;
+    position: relative;
+    width: 445px;
+    height: 27px;
+    z-index: -1;
+    bottom: 145px;
+    right: 15px;
+}
+
+.Inspiration-Text-Rectangle4 {
+    background-color: #51A04B;
+    position: relative;
+    width: 445px;
+    height: 27px;
+    z-index: -1;
+    bottom: 125px;
+    right: 15px;
+}
+
+.Style-LOVECapiton {
+    background-color: #51A04B;
+    position: relative;
+    width: 210px;
+    height: 30px;
+    padding-left: 5px;
+    top: -555px;
+    right: 250px;
+    transition-duration: .6s;
+}
+
+.Style-LOVECapiton:hover {
+    transform: scale(115%);
+}
+
+.Poetry-Poster {
+    position: absolute;
+    top: 1500px;
+    left: 253px;
+    width: 250px;
+    transition-duration: .6s;
+}
+
+.Poetry-Poster:hover {
+    filter: brightness(130%);
+    cursor: pointer;
+    transform: scale(104%);
+}
+
+.Style-Orange-Rectangle {
+    position: relative;
+    background-color: #F6892A;
+    width: 250px;
+    height: 150px;
+    z-index: -1;
+    top: -847px;
+    right: 235px;
+}
+
+.Millman_Style {
+    position: relative;
+    top: -520px;
+    left: 250px;
+    z-index: 3;
+    transition-duration: .6s;
+}
+
+.Millman_Style:hover {
+    transform: scale(112%);
+}
+
+.Style {
+    position: relative;
+    top: 20px;
+}
+
+.Style-Text-Rectangle1 {
+    background-color: #51A04B;
+    position: relative;
+    width: 445px;
+    height: 27px;
+    z-index: -1;
+    top: -220px;
+    right: 15px;
+}
+
+.Style-Text-Rectangle2 {
+    background-color: #51A04B;
+    position: relative;
+    width: 445px;
+    height: 27px;
+    z-index: -1;
+    top: -190px;
+    right: 15px;
+}
+
+.Style-Text-Rectangle3 {
+    background-color: #51A04B;
+    position: relative;
+    width: 445px;
+    height: 27px;
+    z-index: -1;
+    top: -170px;
+    right: 15px;
+}
+
+.Style-Text-Rectangle4 {
+    background-color: #51A04B;
+    position: relative;
+    width: 445px;
+    height: 27px;
+    z-index: -1;
+    top: -150px;
+    right: 15px;
+}
+
+.Style-PoetryMonthCapiton {
+    background-color: #51A04B;
+    position: relative;
+    width: 252px;
+    height: 30px;
+    padding-left: 5px;
+    top: -680px;
+    right: 250px;
+    transition-duration: .6s;
+}
+
+.Style-PoetryMonthCapiton:hover {
+    transform: scale(115%);
+}
+
+.Style-Footer-Rectangle {
+    background-color: #51A04B;
+    position: relative;
+    width: 1190px;
+    height: 90px;
+    z-index: -1;
+    left: -500px;
+    top: 180px;
+}
+
+
+.Career-Bar {
+    position: relative;
+    left: 0px;
+    width: 150%;
+    background-color: #10B5BC;
+    padding-right: 420px;
+    top: 500px;
+}
+
+.Career-Nav-Rectangle {
+    width: 1240px;
+    height: 30px;
+    position: relative;
+    background-color: #F05559;
+    top: 580px;
+    left: -300px;
+    z-index: -1;
+}
+
+.Career-HeadshotBoxTop {
+    background-color: #10B5BC;
+    position: relative;
+    width: 260px;
+    height: 190px;
+    z-index: -1;
+    top: -600px;
+    left: 400px;
+    z-index: 1;
+    transition-duration: .6s;
+}
+
+.Career-HeadshotBoxTop:hover {
+    opacity: 60%;
+    transform: scale(118%);
+}
+
+.Career-HeadshotBoxBottom {
+    background-color: #F05559;
+    position: relative;
+    z-index: -1;
+    width: 190px;
+    height: 175px;
+    bottom: 490px;
+    left: 280px;
+    z-index: 1;
+    transition-duration: .5s;
+}
+
+.Career-HeadshotBoxBottom:hover {
+    opacity: 80%;
+    transform: scale(110%);
+}
+
+.SterlingLogo {
+    width: 120%;
+    position: relative;
+    top: 48px;
+    right: 300px;
+    transition-duration: .6s;
+}
+
+.SterlingLogo:hover {
+    filter: brightness(130%);
+    cursor: pointer;
+    transform: scale(104%);
+}
+
+.Career-Green-Rectangle {
+    position: relative;
+    background-color: #51A04B;
+    width: 290px;
+    height: 180px;
+    z-index: -1;
+    top: 213px;
+    right: 270px;
+}
+
+.Millman_Career {
+    position: relative;
+    top: 665px;
+    left: 250px;
+    z-index: 3;
+    transition-duration: .6s;
+}
+
+.Millman_Career:hover {
+    transform: scale(112%);
+}
+
+.Career {
+    position: relative;
+    top: 20px;
+}
+
+.Career-Text-Rectangle1 {
+    background-color: #10B5BC;
+    position: relative;
+    width: 445px;
+    height: 27px;
+    z-index: -1;
+    right: 15px;
+    top: -290px;
+}
+
+.Career-Text-Rectangle2 {
+    background-color: #10B5BC;
+    position: relative;
+    width: 445px;
+    height: 27px;
+    z-index: -1;
+    right: 15px;
+    top: -263px;
+}
+
+.Career-Text-Rectangle3 {
+    background-color: #10B5BC;
+    position: relative;
+    width: 445px;
+    height: 27px;
+    z-index: -1;
+    right: 15px;
+    top: -242px;
+}
+
+.Career-Text-Rectangle4 {
+    background-color: #10B5BC;
+    position: relative;
+    width: 445px;
+    height: 27px;
+    z-index: -1;
+    right: 15px;
+    top: -221px;
+}
+
+.Career-Text-Rectangle5 {
+    background-color: #10B5BC;
+    position: relative;
+    width: 445px;
+    height: 27px;
+    z-index: -1;
+    right: 15px;
+    top: -200px;
+}
+
+.Career-Text-Rectangle6 {
+    background-color: #10B5BC;
+    position: relative;
+    width: 445px;
+    height: 27px;
+    z-index: -1;
+    right: 15px;
+    top: -178px;
+}
+
+.Career-SterlingCapiton {
+    background-color: #10B5BC;
+    position: relative;
+    width: 176px;
+    height: 30px;
+    padding-left: 5px;
+    top: 25px;
+    right: 250px;
+    transition-duration: .6s;
+}
+
+.Career-SterlingCapiton:hover {
+    transform: scale(115%);
+}
+
+.DesignMattersCover {
+    position: relative;
+    width: 110%;
+    top: -548px;
+    right: 274px;
+    transition-duration: .6s;
+}
+
+.DesignMattersCover:hover {
+    filter: brightness(130%);
+    cursor: pointer;
+    transform: scale(104%);
+}
+
+.Career-Blue-Rectangle {
+    background-color: #10B5BC;
+    position: relative;
+    z-index: -1;
+    width: 350px;
+    height: 85px;
+    right: 500px;
+    top: -220px;
+}
+
+.Career-Orange-Rectangle {
+    position: relative;
+    background-color: #F6892A;
+    z-index: -1;
+    width: 280px;
+    height: 130px;
+    right: 260px;
+    top: -270px;
+}
+
+.Millman_Podcast {
+    position: relative;
+    top: 67px;
+    left: 250px;
+    z-index: 3;
+    transition-duration: .6s;
+}
+
+.Millman_Podcast:hover {
+    transform: scale(112%);
+}
+
+.Podcast {
+    position: relative;
+    top: 20px;
+}
+
+.Podcast-Text-Rectangle1 {
+    background-color: #10B5BC;
+    width: 445px;
+    height: 27px;
+    z-index: -1;
+    right: 15px;
+    position: relative;
+    top: -265px;
+}
+
+.Podcast-Text-Rectangle2 {
+    background-color: #10B5BC;
+    width: 445px;
+    height: 27px;
+    z-index: -1;
+    right: 15px;
+    position: relative;
+    top: -238px;
+}
+
+.Podcast-Text-Rectangle3 {
+    background-color: #10B5BC;
+    width: 445px;
+    height: 27px;
+    z-index: -1;
+    right: 15px;
+    position: relative;
+    top: -216px;
+}
+
+.Podcast-Text-Rectangle4 {
+    background-color: #10B5BC;
+    width: 445px;
+    height: 27px;
+    z-index: -1;
+    right: 15px;
+    position: relative;
+    top: -195px;
+}
+
+.Podcast-Text-Rectangle5 {
+    background-color: #10B5BC;
+    width: 445px;
+    height: 27px;
+    z-index: -1;
+    right: 15px;
+    position: relative;
+    top: -175px;
+}
+
+.Career-PodcastCoverCapiton {
+    background-color: #10B5BC;
+    position: relative;
+    width: 118px;
+    height: 30px;
+    padding-left: 5px;
+    top: -570px;
+    right: 250px;
+    transition-duration: .6s;
+}
+
+.Career-PodcastCoverCapiton:hover {
+    transform: scale(115%);
+}
+
+.AIGA-Medal {
+    position: absolute;
+    right: 930px;
+    top: 1490px;
+    width: 23%;
+    transition-duration: .6s;
+}
+
+.AIGA-Medal:hover {
+    filter: brightness(120%);
+    cursor: pointer;
+    transform: scale(104%);
+}
+
+.Career-Yellow-Rectangle {
+    background-color: #ECC600;
+    position: relative;
+    z-index: -1;
+    width: 250px;
+    height: 200px;
+    top: -879px;
+    right: 220px;
+}
+
+.Millman_Awards {
+    position: relative;
+    top: -575px;
+    left: 250px;
+    z-index: 3;
+    transition-duration: .6s;
+}
+
+.Millman_Awards:hover {
+    transform: scale(112%);
+}
+
+.Awards {
+    position: relative;
+    top: 20px;
+}
+
+.Awards-Text-Rectangle1 {
+    position: relative;
+    background-color: #10B5BC;
+    z-index: -1;
+    width: 445px;
+    height: 27px;
+    right: 15px;
+    top: -195px;
+}
+
+.Awards-Text-Rectangle2 {
+    position: relative;
+    background-color: #10B5BC;
+    z-index: -1;
+    width: 445px;
+    height: 27px;
+    right: 15px;
+    top: -167px;
+}
+
+.Awards-Text-Rectangle3 {
+    position: relative;
+    background-color: #10B5BC;
+    z-index: -1;
+    width: 445px;
+    height: 27px;
+    right: 15px;
+    top: -145px;
+}
+
+.Awards-Text-Rectangle4 {
+    position: relative;
+    background-color: #10B5BC;
+    z-index: -1;
+    width: 445px;
+    height: 27px;
+    right: 15px;
+    top: -125px;
+}
+
+.Career-MedalCapiton {
+    background-color: #10B5BC;
+    position: relative;
+    width: 100px;
+    height: 30px;
+    padding-left: 5px;
+    right: 250px;
+    top: -835px;
+    transition-duration: .6s;
+}
+
+.Career-MedalCapiton:hover {
+    transform: scale(115%);
+}
+
+
+.Career-Footer-Rectangle {
+    background-color: #10B5BC;
+    position: relative;
+    width: 1190px;
+    height: 90px;
+    z-index: -1;
+    left: -500px;
+    top: 180px;
+}
+
+nav {
+    width: 200%;
+    position: relative;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    overflow: hidden;
+    right: 100px;
+    float: left;
+    display: inline;
+}
+
+li {
+    float: left;
+    position: relative;
+}
+
+li a {
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 2px;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    transition-duration: .4s;
+}
+
+li a:hover {
+    font-size: 26px;
+    margin-top: auto;
+    text-align: center;
+    opacity: 50%;
+}
